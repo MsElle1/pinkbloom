@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>PinkBloom Signup</title>
+
+    <style>
+
+        body{
+            font-family:Arial;
+            background:linear-gradient(135deg,#ff9ecb,#ffc2dd);
+            height:100vh;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+        }
+
+        .card{
+            background:white;
+            padding:40px;
+            border-radius:20px;
+            box-shadow:0 10px 30px rgba(0,0,0,0.2);
+            width:320px;
+            text-align:center;
+        }
+
+        input{
+            width:100%;
+            padding:12px;
+            margin:10px 0;
+            border-radius:10px;
+            border:1px solid #ddd;
+        }
+
+        button{
+            background:#ff4fa3;
+            border:none;
+            color:white;
+            padding:12px;
+            width:100%;
+            border-radius:10px;
+            font-size:16px;
+            cursor:pointer;
+        }
+
+        button:hover{
+            background:#ff2e91;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<div class="card">
+
+    <h2>🌸 Create Account</h2>
+
+    <form action="/signup" method="post">
+
+        <input type="text" name="name" placeholder="Name" required>
+
+        <input type="email" name="email" placeholder="Email" required>
+
+        <input type="password" name="password" placeholder="Password" required>
+
+        <button type="submit">Sign Up</button>
+
+    </form>
+
+    <p>Already have an account?</p>
+
+    <a href="/">Login</a>
+
+</div>
+
+</body>
+</html>
