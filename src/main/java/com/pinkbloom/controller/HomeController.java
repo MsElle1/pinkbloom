@@ -15,5 +15,19 @@ public class HomeController {
     public String signupPage(){
         return "signup";
     }
+    @GetMapping("home.html")
+    public String home(){
+        return "home";
+    }
+
+    @GetMapping("shop.html")
+    public String shop(){
+        return "shop";
+    }
+
+    @GetMapping("about.html")
+    public String about(){
+        return "about";
+    }
 
 }
