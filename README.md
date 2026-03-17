@@ -36,5 +36,17 @@ Table: users
 3. Run the application
 4. Open browser
 
+# AI Usage Declaration 
+This project was developed with assistance from AI tools (ChatGPT) for guidance, debugging, and understanding concepts.
+
+The AI was used to:
+- Help troubleshoot errors in Spring Boot and PostgreSQL setup
+- Explain deployment steps on Railway
+- Assist in improving UI design and structure
+
+All implementation, coding, and final integration were done by me.
+
+The project reflects my own understanding and work, with AI used only as a supporting tool.
+
 
 
